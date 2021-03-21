@@ -1,3 +1,4 @@
-/home/havyx/Github/protobuf/target/generated-sources/protobuf/java/dev/evertonsavio/app/models/Person.java
-/home/havyx/Github/protobuf/target/generated-sources/protobuf/java/dev/evertonsavio/app/models/PersonOuterClass.java
-/home/havyx/Github/protobuf/target/generated-sources/protobuf/java/dev/evertonsavio/app/models/PersonOrBuilder.java
+/home/havyx/Github/protobuf/target/generated-sources/protobuf/java/dev/evertonsavio/protobuf/models/Person.java
+/home/havyx/Github/protobuf/target/generated-sources/protobuf/java/dev/evertonsavio/protobuf/models/PersonOrBuilder.java
+/home/havyx/Github/protobuf/src/main/java/dev/evertonsavio/protobuf/PersonDemo.java
+/home/havyx/Github/protobuf/target/generated-sources/protobuf/java/dev/evertonsavio/protobuf/models/PersonOuterClass.java

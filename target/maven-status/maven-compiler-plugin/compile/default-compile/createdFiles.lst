@@ -1,6 +1,7 @@
-dev/evertonsavio/app/models/PersonOuterClass.class
-dev/evertonsavio/app/models/PersonOrBuilder.class
-dev/evertonsavio/app/models/Person.class
-dev/evertonsavio/app/models/Person$Builder.class
-dev/evertonsavio/app/models/PersonOuterClass$1.class
-dev/evertonsavio/app/models/Person$1.class
+dev/evertonsavio/protobuf/models/PersonOrBuilder.class
+dev/evertonsavio/protobuf/models/PersonOuterClass$1.class
+dev/evertonsavio/protobuf/models/Person.class
+dev/evertonsavio/protobuf/models/Person$Builder.class
+dev/evertonsavio/protobuf/PersonDemo.class
+dev/evertonsavio/protobuf/models/Person$1.class
+dev/evertonsavio/protobuf/models/PersonOuterClass.class

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "dev.evertonsavio.app.models";
+option java_package = "dev.evertonsavio.protobuf.models";
 
 message Person{
   string name = 1;
