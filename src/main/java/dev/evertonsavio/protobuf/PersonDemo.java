@@ -12,7 +12,12 @@ public class PersonDemo {
                 .setAge(34)
                 .build();
 
-        System.out.println(savio.toString());
+        Person savio2 = Person.newBuilder()
+                .setName("Savio2")
+                .setAge(34)
+                .build();
+
+        System.out.println(savio.equals(savio2));
 
     }
 
