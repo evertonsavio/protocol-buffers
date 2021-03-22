@@ -21,4 +21,30 @@ public interface PersonOrBuilder extends
    * <code>int32 age = 2;</code>
    */
   int getAge();
+
+  /**
+   * <code>.Address address = 3;</code>
+   */
+  boolean hasAddress();
+  /**
+   * <code>.Address address = 3;</code>
+   */
+  dev.evertonsavio.protobuf.models.Address getAddress();
+  /**
+   * <code>.Address address = 3;</code>
+   */
+  dev.evertonsavio.protobuf.models.AddressOrBuilder getAddressOrBuilder();
+
+  /**
+   * <code>.Car car = 4;</code>
+   */
+  boolean hasCar();
+  /**
+   * <code>.Car car = 4;</code>
+   */
+  dev.evertonsavio.protobuf.models.Car getCar();
+  /**
+   * <code>.Car car = 4;</code>
+   */
+  dev.evertonsavio.protobuf.models.CarOrBuilder getCarOrBuilder();
 }
