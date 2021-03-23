@@ -1,3 +1,5 @@
+package dev.evertonsavio.protobuf;
+
 import dev.evertonsavio.protobuf.models.Person;
 
 public class DefaultValueDemo {

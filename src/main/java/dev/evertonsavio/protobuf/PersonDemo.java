@@ -1,5 +1,6 @@
 package dev.evertonsavio.protobuf;
 
+import com.google.protobuf.Int32Value;
 import dev.evertonsavio.protobuf.models.Person;
 
 import java.io.IOException;
@@ -13,7 +14,7 @@ public class PersonDemo {
 
         Person savio = Person.newBuilder()
                 .setName("Savio")
-                .setAge(34)
+                .setAge(Int32Value.newBuilder().setValue(34).build())
                 .build();
 
         Path path = Paths.get("Savio.ser");

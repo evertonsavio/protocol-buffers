@@ -1,3 +1,5 @@
+package dev.evertonsavio.protobuf;
+
 import dev.evertonsavio.protobuf.models.BodyStyle;
 import dev.evertonsavio.protobuf.models.Car;
 import dev.evertonsavio.protobuf.models.Dealer;

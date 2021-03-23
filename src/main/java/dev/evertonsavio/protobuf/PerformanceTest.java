@@ -1,5 +1,8 @@
+package dev.evertonsavio.protobuf;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.protobuf.Int32Value;
 import com.google.protobuf.InvalidProtocolBufferException;
 import dev.evertonsavio.protobuf.json.JPerson;
 import dev.evertonsavio.protobuf.models.Person;
@@ -27,7 +30,7 @@ public class PerformanceTest {
         //protobuf
         Person person2 = Person.newBuilder()
                 .setName("savio")
-                .setAge(34)
+                .setAge(Int32Value.newBuilder().setValue(34).build())
                 .build();
 
         Runnable proto = () -> {

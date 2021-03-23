@@ -1,3 +1,6 @@
+package dev.evertonsavio.protobuf;
+
+import com.google.protobuf.Int32Value;
 import dev.evertonsavio.protobuf.models.Address;
 import dev.evertonsavio.protobuf.models.Car;
 import dev.evertonsavio.protobuf.models.Person;
@@ -34,7 +37,7 @@ public class CompositionDemo {
 
         Person savio = Person.newBuilder()
                 .setName("Savio")
-                .setAge(34)
+                .setAge(Int32Value.newBuilder().setValue(34).build())
                 .addCar(newCivic)
                 .addCar(accord)
                 //.addAllCar(cars);

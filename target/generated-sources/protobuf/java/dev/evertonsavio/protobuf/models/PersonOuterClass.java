@@ -29,10 +29,12 @@ public final class PersonOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\014person.proto\032\024common/address.proto\032\020co" +
-      "mmon/car.proto\"_\n\006Person\022\014\n\004name\030\001 \001(\t\022\013" +
-      "\n\003age\030\002 \001(\005\022 \n\007address\030\003 \001(\0132\017.common.Ad" +
-      "dress\022\030\n\003car\030\004 \003(\0132\013.common.CarB$\n dev.e" +
-      "vertonsavio.protobuf.modelsP\001b\006proto3"
+      "mmon/car.proto\032\036google/protobuf/wrappers" +
+      ".proto\"|\n\006Person\022\014\n\004name\030\001 \001(\t\022(\n\003age\030\002 " +
+      "\001(\0132\033.google.protobuf.Int32Value\022 \n\007addr" +
+      "ess\030\003 \001(\0132\017.common.Address\022\030\n\003car\030\004 \003(\0132" +
+      "\013.common.CarB$\n dev.evertonsavio.protobu" +
+      "f.modelsP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -47,6 +49,7 @@ public final class PersonOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           dev.evertonsavio.protobuf.models.AddressOuterClass.getDescriptor(),
           dev.evertonsavio.protobuf.models.CarOuterClass.getDescriptor(),
+          com.google.protobuf.WrappersProto.getDescriptor(),
         }, assigner);
     internal_static_Person_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -56,6 +59,7 @@ public final class PersonOuterClass {
         new java.lang.String[] { "Name", "Age", "Address", "Car", });
     dev.evertonsavio.protobuf.models.AddressOuterClass.getDescriptor();
     dev.evertonsavio.protobuf.models.CarOuterClass.getDescriptor();
+    com.google.protobuf.WrappersProto.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
