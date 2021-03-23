@@ -36,15 +36,26 @@ public interface PersonOrBuilder extends
   dev.evertonsavio.protobuf.models.AddressOrBuilder getAddressOrBuilder();
 
   /**
-   * <code>.Car car = 4;</code>
+   * <code>repeated .Car car = 4;</code>
    */
-  boolean hasCar();
+  java.util.List<dev.evertonsavio.protobuf.models.Car> 
+      getCarList();
   /**
-   * <code>.Car car = 4;</code>
+   * <code>repeated .Car car = 4;</code>
    */
-  dev.evertonsavio.protobuf.models.Car getCar();
+  dev.evertonsavio.protobuf.models.Car getCar(int index);
   /**
-   * <code>.Car car = 4;</code>
+   * <code>repeated .Car car = 4;</code>
    */
-  dev.evertonsavio.protobuf.models.CarOrBuilder getCarOrBuilder();
+  int getCarCount();
+  /**
+   * <code>repeated .Car car = 4;</code>
+   */
+  java.util.List<? extends dev.evertonsavio.protobuf.models.CarOrBuilder> 
+      getCarOrBuilderList();
+  /**
+   * <code>repeated .Car car = 4;</code>
+   */
+  dev.evertonsavio.protobuf.models.CarOrBuilder getCarOrBuilder(
+      int index);
 }

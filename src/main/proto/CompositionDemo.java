@@ -2,6 +2,9 @@ import dev.evertonsavio.protobuf.models.Address;
 import dev.evertonsavio.protobuf.models.Car;
 import dev.evertonsavio.protobuf.models.Person;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CompositionDemo {
 
     public static void main(String[] args) {
@@ -13,16 +16,28 @@ public class CompositionDemo {
                 .setCity("Atlanta")
                 .build();
 
-        Car car = Car.newBuilder()
+        Car newCivic = Car.newBuilder()
                 .setModel("Honda")
-                .setModel("Accord")
+                .setModel("NewCivic")
                 .setYear(2021)
                 .build();
+
+        Car accord = Car.newBuilder()
+                .setModel("Accord")
+                .setModel("NewCivic")
+                .setYear(2021)
+                .build();
+
+        List<Car> cars = new ArrayList<>();
+        cars.add(newCivic);
+        cars.add(accord);
 
         Person savio = Person.newBuilder()
                 .setName("Savio")
                 .setAge(34)
-                .setCar(car)
+                .addCar(newCivic)
+                .addCar(accord)
+                //.addAllCar(cars);
                 .setAddress(address)
                 .build();
 
