@@ -23,38 +23,38 @@ public interface PersonOrBuilder extends
   int getAge();
 
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   boolean hasAddress();
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   dev.evertonsavio.protobuf.models.Address getAddress();
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   dev.evertonsavio.protobuf.models.AddressOrBuilder getAddressOrBuilder();
 
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   java.util.List<dev.evertonsavio.protobuf.models.Car> 
       getCarList();
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   dev.evertonsavio.protobuf.models.Car getCar(int index);
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   int getCarCount();
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   java.util.List<? extends dev.evertonsavio.protobuf.models.CarOrBuilder> 
       getCarOrBuilderList();
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   dev.evertonsavio.protobuf.models.CarOrBuilder getCarOrBuilder(
       int index);

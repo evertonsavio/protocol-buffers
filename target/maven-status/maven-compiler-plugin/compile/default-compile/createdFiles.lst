@@ -1,3 +1,4 @@
+dev/evertonsavio/protobuf/models/CarOuterClass.class
 dev/evertonsavio/protobuf/models/DealerOrBuilder.class
 dev/evertonsavio/protobuf/models/Car$1.class
 dev/evertonsavio/protobuf/models/PersonOuterClass$1.class
@@ -5,7 +6,9 @@ dev/evertonsavio/protobuf/models/Dealer$1.class
 dev/evertonsavio/protobuf/models/Dealer$Builder.class
 dev/evertonsavio/protobuf/models/Person$1.class
 dev/evertonsavio/protobuf/models/BodyStyle$1.class
+dev/evertonsavio/protobuf/models/AddressOuterClass$1.class
 dev/evertonsavio/protobuf/models/CarOrBuilder.class
+dev/evertonsavio/protobuf/models/DealerOuterClass.class
 dev/evertonsavio/protobuf/models/Person.class
 dev/evertonsavio/protobuf/models/AddressOrBuilder.class
 dev/evertonsavio/protobuf/models/Person$Builder.class
@@ -15,8 +18,11 @@ dev/evertonsavio/protobuf/models/Address$Builder.class
 dev/evertonsavio/protobuf/models/BodyStyle.class
 dev/evertonsavio/protobuf/models/PersonOuterClass.class
 dev/evertonsavio/protobuf/models/Address.class
+dev/evertonsavio/protobuf/models/AddressOuterClass.class
 dev/evertonsavio/protobuf/models/Dealer.class
 dev/evertonsavio/protobuf/models/Dealer$ModelDefaultEntryHolder.class
 dev/evertonsavio/protobuf/models/Car.class
 dev/evertonsavio/protobuf/models/PersonOrBuilder.class
 dev/evertonsavio/protobuf/models/Address$1.class
+dev/evertonsavio/protobuf/models/DealerOuterClass$1.class
+dev/evertonsavio/protobuf/models/CarOuterClass$1.class
