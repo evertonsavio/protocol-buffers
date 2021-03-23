@@ -31,4 +31,13 @@ public interface CarOrBuilder extends
    * <code>int32 year = 3;</code>
    */
   int getYear();
+
+  /**
+   * <code>.BodyStyle body_style = 4;</code>
+   */
+  int getBodyStyleValue();
+  /**
+   * <code>.BodyStyle body_style = 4;</code>
+   */
+  dev.evertonsavio.protobuf.models.BodyStyle getBodyStyle();
 }

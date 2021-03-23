@@ -49,14 +49,16 @@ public final class PersonOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\014person.proto\"8\n\007Address\022\017\n\007postbox\030\001 \001" +
-      "(\005\022\016\n\006street\030\002 \001(\t\022\014\n\004city\030\003 \001(\t\"0\n\003Car\022" +
+      "(\005\022\016\n\006street\030\002 \001(\t\022\014\n\004city\030\003 \001(\t\"P\n\003Car\022" +
       "\014\n\004make\030\001 \001(\t\022\r\n\005model\030\002 \001(\t\022\014\n\004year\030\003 \001" +
-      "(\005\"Q\n\006Person\022\014\n\004name\030\001 \001(\t\022\013\n\003age\030\002 \001(\005\022" +
-      "\031\n\007address\030\003 \001(\0132\010.Address\022\021\n\003car\030\004 \003(\0132" +
-      "\004.Car\"_\n\006Dealer\022!\n\005model\030\001 \003(\0132\022.Dealer." +
-      "ModelEntry\0322\n\nModelEntry\022\013\n\003key\030\001 \001(\005\022\023\n" +
-      "\005value\030\002 \001(\0132\004.Car:\0028\001B$\n dev.evertonsav" +
-      "io.protobuf.modelsP\001b\006proto3"
+      "(\005\022\036\n\nbody_style\030\004 \001(\0162\n.BodyStyle\"Q\n\006Pe" +
+      "rson\022\014\n\004name\030\001 \001(\t\022\013\n\003age\030\002 \001(\005\022\031\n\007addre" +
+      "ss\030\003 \001(\0132\010.Address\022\021\n\003car\030\004 \003(\0132\004.Car\"_\n" +
+      "\006Dealer\022!\n\005model\030\001 \003(\0132\022.Dealer.ModelEnt" +
+      "ry\0322\n\nModelEntry\022\013\n\003key\030\001 \001(\005\022\023\n\005value\030\002" +
+      " \001(\0132\004.Car:\0028\001*6\n\tBodyStyle\022\n\n\006UNKNOW\020\000\022" +
+      "\t\n\005SEDAN\020\001\022\t\n\005COUPE\020\002\022\007\n\003SUV\020\003B$\n dev.ev" +
+      "ertonsavio.protobuf.modelsP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -81,7 +83,7 @@ public final class PersonOuterClass {
     internal_static_Car_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Car_descriptor,
-        new java.lang.String[] { "Make", "Model", "Year", });
+        new java.lang.String[] { "Make", "Model", "Year", "BodyStyle", });
     internal_static_Person_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_Person_fieldAccessorTable = new
